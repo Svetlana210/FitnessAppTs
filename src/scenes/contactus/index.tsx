@@ -56,7 +56,7 @@ const ContactUs = ({setSelectedPage}: Props) => {
 						viewport={{once: true, amount: 0.5}}
 						transition={{duration: 0.5}}
 						variants={{
-							hidden: {opacity: 0, x: 50},
+							hidden: {opacity: 0, x: -50},
 							visible: {opacity: 1, x: 0}
 						}}>
 						<form target="_blank" onSubmit={onSubmit} method="POST" action="https://formsubmit.co/your@mail.com">
@@ -94,7 +94,7 @@ const ContactUs = ({setSelectedPage}: Props) => {
 						viewport={{once: true, amount: 0.5}}
 						transition={{duration: 0.5, delay: 0.2}}
 						variants={{
-							hidden: {opacity: 0, x: -50},
+							hidden: {opacity: 0, x: 50},
 							visible: {opacity: 1, x: 0}
 						}}>
 						<div className="md:before:content-evolvetext w-full before:absolute before:-bottom-20 before:-right-0 before:z-[-1]">
