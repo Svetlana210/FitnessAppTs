@@ -1,8 +1,9 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import {SelectedPage} from '@/shared/types';
 import {motion} from 'framer-motion';
 import {useForm} from 'react-hook-form';
 import ContactUsPageGraphic from '@/assets/ContactUsPageGraphic.png';
-import Htext from '@/shared/HText';
+import Htext from '@/shared/Htext';
 
 type Props = {
 	setSelectedPage: (value: SelectedPage) => void;
